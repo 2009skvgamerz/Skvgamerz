@@ -14,3 +14,45 @@ section {
 form input, form textarea {
     margin-bottom: 1rem;
 }
+
+
+/* Custom Styles */
+
+header {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+}
+
+/* Additional custom styles */
+nav a {
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+button {
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff0000;
+}

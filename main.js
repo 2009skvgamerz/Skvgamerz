@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     fetchVideos();
 
     function fetchVideos() {
-        const apiKey = 'YOUR_YOUTUBE_API_KEY'; // Replace with your actual API key
+        const apiKey =AIzaSyCYUxc1OYHFHXlx91rzXDWHImH-lKjtHpE; // Replace with your actual API key
         const channelId = 'UC1uU0sXucXtOvSwIAGBCnyQ';
         const maxResults = 6;
         const url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${maxResults}`;

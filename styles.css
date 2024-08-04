@@ -1,0 +1,16 @@
+/* Custom Styles */
+
+header {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+}

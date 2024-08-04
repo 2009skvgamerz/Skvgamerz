@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - My YouTube Channel</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold">My YouTube Channel</a>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="text-gray-600 hover:text-gray-900">Home</a></li>
+                <li><a href="index.html#videos" class="text-gray-600 hover:text-gray-900">Videos</a></li>
+                <li><a href="index.html#about" class="text-gray-600 hover:text-gray-900">About</a></li>
+                <li><a href="index.html#contact" class="text-gray-600 hover:text-gray-900">Contact</a></li>
+                <li><a href="blog.html" class="text-gray-600 hover:text-gray-900">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Section -->
+    <section class="container mx-auto px-4 py-20">
+        <h2 class="text-3xl font-bold mb-8 text-center">Blog</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Repeat this block for each blog post -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="BLOG_THUMBNAIL_URL" alt="Blog Post Title" class="w-full">
+                <div class="p-4">
+                    <h3 class="font-bold text-xl mb-2">Blog Post Title</h3>
+                    <p class="text-gray-600">Short description of the blog post.</p>
+                    <a href="blog-post.html" class="text-red-500 hover:text-red-700">Read More</a>
+                </div>
+            </div>
+            <!-- Repeat block ends -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            &copy; 2024 My YouTube Channel. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>

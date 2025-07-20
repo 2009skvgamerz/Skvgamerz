@@ -1,5 +1,8 @@
 # SKVGamerz Homepage Project
-
+[![License: GNU Genral ](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 ## Overview
 
 A modern, clean homepage built with HTML, CSS, and PHP. Features a light/pastel design theme with smooth animations and responsive UI/UX design. All functionality is delivered in a single PHP file for simplicity.
